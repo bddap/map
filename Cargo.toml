@@ -1,0 +1,8 @@
+[package]
+name = "map"
+version = "0.1.0"
+authors = ["Andrew Dirksen <andrew@dirksen.com>"]
+description = "Run command on every item from input. Halt and exit on first command to exit nonzero"
+
+[dependencies]
+clap = "2.32.0"
