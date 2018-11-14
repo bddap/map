@@ -6,7 +6,7 @@ Runs command for every item in stdin. Similar to xargs.
 
 ```bash
 $ echo hey | map ,, echo ,, ,,
-there hey
+hey hey
 ```
 
 ```bash
