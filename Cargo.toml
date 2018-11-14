@@ -3,6 +3,7 @@ name = "map"
 version = "0.1.0"
 authors = ["Andrew Dirksen <andrew@dirksen.com>"]
 description = "Run command on every item from input. Halt and exit on first command to exit nonzero"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 clap = "2.32.0"
