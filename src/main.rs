@@ -12,8 +12,8 @@ fn main() {
             Arg::with_name("separator")
                 .short("s")
                 .long("separator")
-                .help("Single character delimiter beween input values.\n'\\n' by default")
-                .default_value("\n")
+                .help("Single character delimiter beween input values.")
+                .default_value("\\n")
                 .required(true)
                 .takes_value(true),
         ).arg(
